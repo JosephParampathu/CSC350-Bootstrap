@@ -1,0 +1,18 @@
+.container {
+  color: red;
+  width: 800px;
+  height: 500px;
+  margin: auto;
+  background-color: white;
+  padding: 15px;
+}
+
+body {
+  background-color: silver;
+}
+
+
+h1 {
+  background-color: white;
+  text-align: center;
+}

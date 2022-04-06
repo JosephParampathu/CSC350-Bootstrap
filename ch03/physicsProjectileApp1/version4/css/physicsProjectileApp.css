@@ -1,0 +1,24 @@
+body {
+  background-color: #78BDFA;
+  font-family: Arial;
+}
+div {
+  background-color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+h1 {
+  text-align: center;
+}
+table {
+  background-color: #444444;
+  color: white;
+  border-radius: 25px;
+  text-align: center;
+}
+table tr td {
+  padding: 5px;
+}
+table tr th {
+  padding-left: 8px;
+}

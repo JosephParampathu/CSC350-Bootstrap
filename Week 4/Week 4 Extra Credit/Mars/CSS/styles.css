@@ -1,0 +1,55 @@
+body
+{
+  background-image: url('../Images/space.png');
+  background-attachment: fixed;
+}
+
+.marsNow, .marsThen
+{
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+  padding: 0px;
+  cursor: pointer;
+}
+
+.divtitle
+{
+  position: fixed;
+  top: 2px;
+  font-size: 26px;
+  color: rgba(200, 200, 200, 4);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  animation: titleMars 1000ms;
+  width: 100%;
+  text-align: center;
+}
+
+.imgMars
+{
+  animation: expand 3000ms;
+}
+
+@keyframes expand{
+  from {
+    width: 50px;
+    height: 50px;
+    margin-left: 150px;
+    }
+    to{
+      width: 500px;
+      height: 500px;
+      margin-left: 0px;
+    }
+}
+
+@keyframes titleMars{
+  from{
+    font-size: 10px;
+    }
+  to{
+    font-size: 26px;
+    }
+}

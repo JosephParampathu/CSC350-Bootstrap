@@ -1,0 +1,42 @@
+<!docType html>
+<html>
+
+<head>
+    <title>Mars Now and Then</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+<script>
+  $(document).ready(function(){
+    $('#lnkMarsNow').click(function(){
+    $('.planet').hide();
+    $('.marsThen').fadeIn(500);
+    $('.divtitle').text('Ancient Mars').hide().fadeIn();
+  });
+
+  $('#lnkMarsThen').click(function(){
+    $('.planet').hide();
+    $('.marsNow').fadeIn(500);
+    $('.divtitle').text('Mars Today').hide().fadeIn();
+  })
+});
+
+</script>
+
+<div class="divtitle">Mars Today</div>
+<div class="marsNow planet">
+  <a id="lnkMarsNow">
+    <img src="Images/mars.png" class="imgMars" />
+</div>
+
+<div class="marsThen planet" style="display:none;">
+  <a id="lnkMarsThen">
+    <img src="Images/ancientMars.png" class="imgMars" />
+</div>
+
+
+</body>
+
+</html>

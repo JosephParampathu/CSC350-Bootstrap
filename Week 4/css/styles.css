@@ -1,0 +1,45 @@
+body {
+  font-size: 20px;
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: auto;
+  animation: fadeIn 4000ms linear;
+}
+
+table td, table th {
+  padding: 5px;
+  border:1px solid #ccc;
+}
+
+h1, h2, button {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity:0;
+  }
+  to{
+    opacity:1;
+  }
+}
+
+/* Break Points  */
+
+@media screen and (max-width: 1000px){
+  table{
+    width: 75%;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+  table{
+    width: 95%;
+  }
+}

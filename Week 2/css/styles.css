@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  font-size: 18px;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 15px auto;
+}
+
+[class*="col-"] {
+  margin-left: .5%;
+  margin-right: .5%;
+  min-height: 100px;
+}
+
+.col-3 {
+  width: 24%;
+}
+
+.col-4 {
+  width: 32.33%;
+}
+
+.col-6 {
+  width: 49%;
+}
+
+.col-12 {
+  width: 99%;
+}
+
+@media screen and (max-width:600px){
+  [class*="col-"]{
+    width: 100%;
+  }
+}

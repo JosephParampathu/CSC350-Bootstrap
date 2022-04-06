@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+Name: Joseph Parampathu
+Date: October 29, 2021
+Assignment: CSC 350 - Week 3 Lab 
+-->
+<html>
+
+<head>
+    <title>Units</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/jquery.mobile-1.3.1.min.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <!-- JS -->
+    <script src="scripts/jquery-1.8.3.min.js"></script>
+    <script src="scripts/jquery.mobile-1.3.1.min.js"></script>
+
+    <script src="scripts/main.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Container div over all the elements -->
+    <!-- First portion is where the user chooses what units to convert -->
+    <label for ="selectUnits">Enter Quantity in </label>
+    <select id="selectUnits">
+      <option>Gallons</option>
+      <option>Liters</option>
+    </select>
+    <!-- The user enters the unit value here -->
+    <label for="units">Units</label>
+    <input id="units" type="text" />
+    <div id="unitsInvalid" class="invalid"></div>
+    <br>
+    <br>
+    <!-- The button that triggers the javascript function -->
+    <button onclick="update()">Update</button>
+    <!-- Displays the results -->
+    <p id="result" class="results"><p>
+  </div>
+
+
+
+</body>
+
+</html>

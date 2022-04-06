@@ -1,0 +1,19 @@
+.container{
+    padding:10px;
+    background:black;
+    color:white;
+}
+
+.ui-body-c{
+    background:black !important;
+}
+
+.ui-input-text{
+    color:white;
+}
+
+.invalid{
+    text-shadow: none;
+    color: red;
+    min-height: 30px;
+}
